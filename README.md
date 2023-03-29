@@ -1,24 +1,38 @@
 # README
+Story 1: In order to interact with the blog post application, as a user of the application, I need to see a list of all blog posts.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Branch: blog-index
 
-Things you may want to cover:
+Acceptance Criteria
 
-* Ruby version
+Has a model for Blog with the following information: title and content
+Output: done
 
-* System dependencies
+Has a controller for Blog
+Output: Done
 
-* Configuration
+Has a controller action for index
+Output: Done
 
-* Database creation
+Has a route for index
+Output: Done
 
-* Database initialization
+Has a view for index
+Output: Done
 
-* How to run the test suite
+Can see all the blog post titles on the landing page of the application
+Output: Done
+___________________
 
-* Services (job queues, cache servers, search engines, etc.)
+Story 2: In order to interact with the blog post application, as a user of the application, I need to see the details of one blog post.
 
-* Deployment instructions
+Branch: blog-show
 
-* ...
+Acceptance Criteria
+
+Has a controller action for show
+Has a route for show
+Has a view for show
+Can navigate from the list of all blog post titles to the view of any given blog post
+Can see all the title and content for one blog post on a page
+Can navigate back from the show page to the landing page
