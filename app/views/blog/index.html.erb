@@ -1,3 +1,10 @@
 <h2> My blog Tracker</h2>
+<br>
 
-<%# @blogs.each do |blog| %>
+<ul>
+
+<% @blogs.each do |blog| %> 
+<li> <%= link_to blog.title, blog_path(blog.id) %> </li>
+<% end %> 
+
+</ul>
